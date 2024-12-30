@@ -1,4 +1,4 @@
-# Steven Cusey Projects
+# Steven Cusey Favorite Projects
 Here are some of my favorite projects I've worked on, both solo and group projects are included here, whether I did them for school or for fun. Each folder above contains the code code for the project, and a video and description for each project are in the ReadMe file below. 
 
 # Project 1: Your Jet Ski Our Spotlight | C#, MySql, Microsoft Azure | Group Project for School
