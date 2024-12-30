@@ -1,0 +1,17 @@
+﻿@model CST323Milestone.Models.UsersRegisterModel
+
+<div>
+	<h4>Registration Failed. Email already in use.</h4>
+	<hr />
+	<dl class="row">
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Email)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Email)
+		</dd>
+	</dl>
+</div>
+<div>
+	<a asp-action="Index">Back to Registration</a>
+</div>

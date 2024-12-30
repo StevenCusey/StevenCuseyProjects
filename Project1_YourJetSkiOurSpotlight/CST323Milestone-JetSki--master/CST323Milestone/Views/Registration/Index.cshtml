@@ -1,0 +1,40 @@
+﻿@model CST323Milestone.Models.UsersRegisterModel
+
+<div class="center-div">
+	<div class="center-container">
+		<div>
+			<div class="center-div">
+				<h4>Register For Jet Ski Account</h4>
+			</div>
+			<form method="post" asp-action="ProcessRegistration">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="FirstName" class="control-label">First Name</label>
+					<input asp-for="FirstName" class="form-control" />
+					<span asp-validation-for="FirstName" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="LastName" class="control-label">Last Name</label>
+					<input asp-for="LastName" class="form-control" />
+					<span asp-validation-for="LastName" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Email" class="control-label"></label>
+					<input asp-for="Email" class="form-control" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Password" class="control-label"></label>
+					<input asp-for="Password" type="password" class="form-control" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<br />
+
+				<div class="form-group center-div">
+					<input type="submit" value="Register" class="btn btn-primary" />
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
