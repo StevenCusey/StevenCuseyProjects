@@ -2,6 +2,10 @@
 Here are some of my favorite projects I've worked on, both solo and group projects are included here, whether I did them for school or for fun. Each folder above contains the code for the project, and a video and description for each project are in the ReadMe file below. 
 
 # Project 1: Your Jet Ski Our Spotlight | C#, MySql, Microsoft Azure | Group Project for School
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/9684b750-4f0d-4d5c-915f-488045ac8f5c" alt="yourjetskiourspotlightlogo" width="200">
+</div>
+
 This is a group project I worked on for school with my classmate Damien Padilla. He coded the Jet Ski Page as well as the functionality to add, remove, or edit a jet Ski. I meanwhile, was reponsible for the registration and Login Pages, as well as putting the program in Microsoft Azure. This project uses C# as its primary prgramming language, MySql to store the list of Jet Skis, and Azure as its cloud platform. Here is a video demonstrating it: https://www.youtube.com/watch?v=T1ztp9I3WBM
 
 # Project 2: Namer App | Flutter, Dart | Solo Project for Fun
