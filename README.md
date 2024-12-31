@@ -7,8 +7,8 @@ This is a group project I worked on for school with my classmate Damien Padilla.
 # Project 2: Namer App | Flutter, Dart | Solo Project for Fun
 This is a small Flutter App I built in my free time that generates two random words, then allows the user to temporarily save them to a list. Here is a video demonstrating it: https://www.youtube.com/watch?v=r_nI1HoIvdg
 
-# Project 3: Personal Page | HTML, CSS, Bootstrap, Javascript | Started out as Solo Project for School, But I have Continued to Update It
-Here is a personal page I started for school. I have also added several features that were not required during school for fun on my own time, such as a carousel for my photo gallery. Here is a video demonstrating it: 
+# Project 3: Personal Page | HTML, CSS, Bootstrap, Javascript | Started out as Solo Project for School, But I have Continued to Update It After that class Concluded
+Here is a personal page I started for school that uses CSS for the theming, HTML for the main layout, and Bootstrap for the NavBar. Here is a video demonstrating it: https://www.youtube.com/watch?v=JaoHdWWfT78
 
 # Keep an eye out here for future projects. I am currently creating an app that allows users to find and naviagate to Gluten-Free restaurants, making things easier for people with celiac disease and other gluten-related diseases.
 
