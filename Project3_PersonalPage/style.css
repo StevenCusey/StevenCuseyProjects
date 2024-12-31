@@ -1,0 +1,31 @@
+/* Background and text styling */
+body {
+  background-color: rgba(102, 192, 241, 0.801); /* Light blue */
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/* Styled <hr> elements */
+.blue-bar {
+  border: none;
+  height: 5px;
+  background-color: blue;
+}
+
+.red-bar {
+  border: none;
+  height: 5px;
+  background-color: red;
+}
+
+.green-bar {
+  border: none;
+  height: 5px;
+  background-color: green;
+}

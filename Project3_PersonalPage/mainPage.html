@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Steven Cusey">
+    <meta description="This is the main navigation page.">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .navbar {
+            background-color: #00008b; 
+            border-color: #00008b; 
+        }
+        .navbar a {
+            color: white !important; 
+        }
+        .navbar a:hover {
+            background-color: #000066; 
+        }
+        .navbar-nav .active a {
+            color: blue !important; 
+        }
+    </style>
+
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            //collect form data
+            const formData = new FormData(this);
+
+            //convert FormData to JSON
+            const jsonObject = {};
+            formData.forEach((value, key) => {
+                jsonObject[key] = value;
+            });
+
+           
+            console.log('Sending JSON:', JSON.stringify(jsonObject));
+
+            
+            fetch('https://postman-echo.com/post', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(jsonObject),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('SUCCESS:', data);
+                alert('Your message was sent successfully!'); 
+            })
+        });
+    };
+</script>
+
+</head>
+<body>
+
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">About Steven Cusey</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="mainPage.html">Home</a></li>
+                <li><a href="myDogs.html">My Dogs</a></li>
+                <li><a href="myHobbies.html">My Hobbies</a></li>
+                <li><a href="photoGallery.html">My Photos</a></li>
+            </ul>
+            <!-- Help Button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Help</button>
+        </div>
+    </nav>
+
+    <!-- Help Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Guide</h4>
+                </div>
+                <div class="modal-body">
+                  <p style="color: black;">To see the hobbies page, click the My Hobbies tab. To see the dogs page, click the My Dogs tab. For a gallery of photos, click the My Photos tab.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <hr width="100%" size="5" class="blue-bar">
+
+    <h2 style="font-family: 'Times New Roman'; color: yellow; font-size: 50;" align="center">About Me</h2>
+    <h2 align="center" style="font-family: 'Bauhaus 93'; color: blue; font-size: 20;">My name is Steven Cusey! I like dogs, video games, football, and skiing.</h2>
+
+    <hr width="100%" size="5" class="blue-bar">
+    <hr width="100%" size="5" class="red-bar">
+
+    <h2 align="center" style="font-family: 'Bauhaus 93'; color: red; font-size: 9;">Favorite Video Games</h2>
+    <p>My favorite video games include:</p>
+    <p>1. The Legend of Zelda: Tears of the Kingdom</p>
+    <p>2. The Legend of Zelda: Breath of the Wild</p>
+    <p>3. Mario & Luigi: Bowser's Inside Story</p>
+    <p>4. Super Mario Galaxy 2</p>
+    <p>5. The Legend of Zelda: Majora's Mask</p>
+
+    <h2 align="center" style="font-family: 'Times New Roman'; font-size: 20;">For more info about my favorite video games and some of my other hobbies, see the NavBar at the top of this page.</h2>
+
+    <hr width="100%" size="5" class="red-bar">
+    <hr width="100%" size="5" class="green-bar">
+
+    <h2 align="center" style="font-family: 'Bauhaus 93'; color: green; font-size: 9;">My Dogs</h2>
+    <p align="center">This little guy is Johnny.</p>
+    <h2 align="center" style="font-family: 'Times New Roman'; font-size: 20;">For more info about all my dogs, see the NavBar at the top of this page.</h2>
+    <p align="center"><img src="Photos/johnny9132024.jpg" alt="Johnny"></p>
+
+    <p id="demo" align="center"></p>
+    
+    <ul class="pager">
+      <li class="previous"><a href="photoGallery.html">Previous</a></li>
+      <li class="next"><a href="myDogs.html">Next</a></li>
+    </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Steven Cusey">
+    <meta description="This is a page that talks about Steven's pets.">
+    <title>My Dogs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> 
+
+    <!-- Dog Bone Animation -->
+    <style>
+        #dogBone {
+            position: relative;
+            animation: moveLeftRight 2s infinite alternate;
+        }
+
+        @keyframes moveLeftRight {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: 150px;
+            }
+        }
+
+        
+        .navbar {
+            background-color: #00008b; 
+            border-color: #00008b; 
+        }
+        .navbar a {
+            color: white !important; 
+        }
+        .navbar a:hover {
+            background-color: #000066; 
+        }
+        .navbar-nav .active a {
+            color: blue !important; 
+        }
+    </style>
+<!--Style for dog table-->
+<style>
+  table {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.8); 
+  }
+
+  th, td {
+      border: 2px solid #008000; 
+      text-align: left;
+      padding: 8px;
+      color: black; 
+  }
+
+  th {
+      font-weight: bold;
+      background-color: #228B22; 
+      color: white; 
+  }
+
+  tr:nth-child(even) {
+      background-color: #f2f2f2; 
+  }
+
+  tr:nth-child(odd) {
+      background-color: white; 
+  }
+</style>
+
+</head>
+<body onload="dogState()">
+
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="#">About Steven Cusey</a>
+          </div>
+          <ul class="nav navbar-nav">
+              <li><a href="mainPage.html">Home</a></li>
+              <li class="active"><a href="myDogs.html">My Dogs</a></li>
+              <li><a href="myHobbies.html">My Hobbies</a></li>
+              <li><a href="photoGallery.html">My Photos</a></li>
+          </ul>
+      </div>
+  </nav>
+
+  <hr width="100%" size="5" class="green-bar">
+
+  <!-- JavaScript Message -->
+  <p id="demo" align="center" style="font-size: 16px; color: green;"></p>
+
+  <h2 align="center" style="font-family: 'Bauhaus 93'; color: green; font-size: 9;">My Dogs</h2>
+
+  <p align="center"><img id="dogBone" src="Photos/dogbone.jpg" alt="Dog Bone" width="100" height="100"></p>
+
+  <p align="center">This little guy is Johnny. He likes playing fetch and hiding underneath blankets.</p>
+  <p align="center"><img src="Photos/johnny9132024.jpg" alt="Johnny"></p>
+  <p align="center">This little guy on the left is Rider. He loves meeting new people and sitting on their laps. The little guy on the right is Sully. He likes eating and sleeping.</p>
+  <p align="center"><img src="Photos/sullyandrider9132014.jpg" width="700" height="500" alt="Rider and Sully"></p>
+  <p align="center">This is a picture with my Border Collie Huppy and I. He sadly passed away back in 2019. He loved chasing rodents and following us as we explored our farm. He brought a detached deer leg to our front yard once, which was weird. We have no idea where he found it, but it was pretty funny.</p>
+  <p align="center"><img src="Photos/Huppy.jpg" width="700" height="500" alt="Huppy"></p>
+
+  <hr width="100%" size="5" class="green-bar">
+
+  <!-- My dog table -->
+  <h2 align="center">Dogs I've Had</h2>
+  <table>
+      <tr>
+          <th>Name</th>
+          <th>Birth Date</th>
+          <th>Breed</th>
+      </tr>
+      <tr>
+          <td>Huppy</td>
+          <td>2004</td>
+          <td>Border Collie</td>
+      </tr>
+      <tr>
+          <td>Rider</td>
+          <td>January 22nd, 2012</td>
+          <td>Chihuahua/Japanese Chin</td>
+      </tr>
+      <tr>
+          <td>Sully</td>
+          <td>January 22nd, 2012</td>
+          <td>Chihuahua/Japanese Chin</td>
+      </tr>
+      <tr>
+          <td>Johnny</td>
+          <td>October 17, 2016</td>
+          <td>Chihuahua/Dachshund/Miniature Pinscher</td>
+      </tr>
+  </table>
+
+  <hr width="100%" size="5" class="green-bar">
+
+  <ul class="pager">
+    <li class="previous"><a href="mainPage.html">Previous</a></li>
+    <li class="next"><a href="myHobbies.html">Next</a></li>
+  </ul>
+  </div>
+
+  <script src="personalPage.js"></script>
+</body>
+
+
+</html>

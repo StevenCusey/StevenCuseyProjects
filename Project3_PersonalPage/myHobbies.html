@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Steven Cusey">
+    <meta description="This is a page that talks about Steven's hobbies.">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> 
+
+    <!-- Music Note Animation -->
+    <style>
+        .rotate-on-hover {
+            display: block;
+            margin: 0 auto;
+            width: 300px; 
+            height: auto; 
+            transition: transform 0.5s ease; 
+        }
+
+        .rotate-on-hover:hover {
+            transform: rotate(360deg); 
+        }
+
+        
+        .navbar {
+            background-color: #00008b; /* Dark blue */
+            border-color: #00008b; 
+        }
+        .navbar a {
+            color: white !important; 
+        }
+        .navbar a:hover {
+            background-color: #000066; 
+        }
+        .navbar-nav .active a {
+            color: blue !important; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">About Steven Cusey</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="mainPage.html">Home</a></li>
+                <li><a href="myDogs.html">My Dogs</a></li>
+                <li class="active"><a href="myHobbies.html">My Hobbies</a></li>
+                <li><a href="photoGallery.html">My Photos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <hr width="100%" size="5" class="red-bar">
+
+    <!-- Page Content -->
+    <h2 align="center" style="font-family: 'Bauhaus 93'; color: red; font-size: 9;">Favorite Video Games</h2>
+
+    <p>Here are my favorite video games. Here, you can see their title as well as my favorite song from each game.</p>
+    <p align="center">
+        <img src="Photos/musicnotes.jpg" alt="Music Notes" class="rotate-on-hover">
+    </p>
+
+    <!-- Video Games List and Audio -->
+    <p align="center">1. The Legend of Zelda: Tears of the Kingdom</p>
+    <p align="center">Song: Colgera Battle</p>
+    <audio controls style="display: block; margin: auto;">
+        <source src="Audio/3-17. Scourge of the Wind Temple, Colgera Battle.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <p align="center">2. The Legend of Zelda: Breath of the Wild</p>
+    <p align="center">Song: Vah Naboris Battle</p>
+    <audio controls style="display: block; margin: auto;">
+        <source src="Audio/4-19 Divine Beast, Vah Naboris Battle.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <p align="center">3. Mario & Luigi: Bowser's Inside Story</p>
+    <p align="center">Song: In The Final</p>
+    <audio controls style="display: block; margin: auto;">
+        <source src="Audio/50. The Grand Finale.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <p align="center">4. Super Mario Galaxy 2</p>
+    <p align="center">Song: Bowser's Galaxy Generator</p>
+    <audio controls style="display: block; margin: auto;">
+        <source src="Audio/156. Bowser's Galaxy Generator.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <p align="center">5. The Legend of Zelda: Majora's Mask</p>
+    <p align="center">Song: Stone Tower Temple</p>
+    <audio controls style="display: block; margin: auto;">
+        <source src="Audio/2-43 Stone Tower Temple (Reality).mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <hr width="100%" size="5" class="red-bar">
+
+    <h2 align="center" style="font-family: 'Bauhaus 93'; color: red; font-size: 9;">Other Hobbies</h2>
+
+    <p align="center">In addition to playing video games, I also enjoy watching football and skiing.<br></p>
+
+    <p align="center">Here is a picture of me getting a Vikings pillowcase for my birthday.<br></p>
+    <p align="center"><img src="Photos/StevenVikingsPillowcase.jpg" width="700" height="500" alt="Vikings Pillowcase"></p>
+
+    <hr width="100%" size="5" class="red-bar">
+
+    <ul class="pager">
+      <li class="previous"><a href="myDogs.html">Previous</a></li>
+      <li class="next"><a href="photoGallery.html">Next</a></li>
+    </ul>
+    </div>
+</body>
+</html>
