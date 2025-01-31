@@ -6,7 +6,7 @@ Here are some of my favorite projects I've worked on, both solo and group projec
   <img src="https://github.com/user-attachments/assets/9684b750-4f0d-4d5c-915f-488045ac8f5c" alt="yourjetskiourspotlightlogo" width="200">
 </div>
 
-This is a group project I worked on for school with my classmate Damien Padilla. He coded the Jet Ski Page as well as the functionality to add, remove, or edit a jet Ski. I meanwhile, was reponsible for the registration and Login Pages, as well as putting the program in Microsoft Azure. This project uses C# as its primary prgramming language, MySql to store the list of Jet Skis, and Azure as its cloud platform. Here is a video demonstrating it: https://www.youtube.com/watch?v=T1ztp9I3WBM
+This is a group project I worked on for school with my classmate Damien Padilla. He coded the Jet Ski Page as well as the functionality to add, remove, or edit a jet Ski. I meanwhile, was reponsible for the registration and login Pages, as well as putting the program in Microsoft Azure. This project uses C# as its primary prgramming language, MySql to store the list of Jet Skis, and Azure as its cloud platform. Here is a video demonstrating it: https://www.youtube.com/watch?v=T1ztp9I3WBM
 
 # Project 2: Namer App | Flutter, Dart | Solo Project for Fun
 This is a small Flutter App I built in my free time that generates two random words, then allows the user to temporarily save them to a list. Here is a video demonstrating it: https://www.youtube.com/watch?v=r_nI1HoIvdg
