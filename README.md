@@ -15,6 +15,9 @@ This is a small Flutter App I built in my free time that generates two random wo
 Here is a personal page I started for school that uses CSS for the theming, HTML for the main layout, and Bootstrap for the NavBar. Here is a video demonstrating it: https://www.youtube.com/watch?v=JaoHdWWfT78
 
 # Project 4: Gluten Freeway | Dart, Flutter, MongoDB | Possibly Make it into a Commercial Product
+<div style="text-align: center;">
+  <img width="200" alt="GlutenFreewayDemoLogo" src="https://github.com/user-attachments/assets/388a4fdb-6ef5-4534-bc0b-0a47e8d8ee4d" />
+</div>
 Here is a mobile app I made for my senior project that allows users to find and naviagate to Gluten-Free restaurants, making things easier for people with celiac disease and other gluten-related diseases: https://github.com/StevenCusey/Gluten-Freeway
 
 # Keep an eye out here for future projects.
