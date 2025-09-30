@@ -14,6 +14,9 @@ This is a small Flutter App I built in my free time that generates two random wo
 # Project 3: Personal Page | HTML, CSS, Bootstrap, Javascript | Solo Project for School
 Here is a personal page I started for school that uses CSS for the theming, HTML for the main layout, and Bootstrap for the NavBar. Here is a video demonstrating it: https://www.youtube.com/watch?v=JaoHdWWfT78
 
+# Project 3: Gluten Freeway | Dart, Flutter, MongoDB | Possibly Make it into a Commercial Product
+Here is a mobile app I made for my senior project that allows users to find and naviagate to Gluten-Free restaurants, making things easier for people with celiac disease and other gluten-related diseases: https://github.com/StevenCusey/Gluten-Freeway
+
 # Keep an eye out here for future projects. I am currently creating an app that allows users to find and naviagate to Gluten-Free restaurants, making things easier for people with celiac disease and other gluten-related diseases.
 
 
