@@ -12,7 +12,7 @@ This is a group project I worked on for school with my classmate Damien Padilla.
 This is a small Flutter App I built in my free time that generates two random words, then allows the user to temporarily save them to a list. I mainly made this just to get some practice with Flutter before making Gluten Freeway. Here is a video demonstrating it: https://www.youtube.com/watch?v=r_nI1HoIvdg
 
 # Project 3: Personal Page | HTML, CSS, Bootstrap, Javascript | Solo Project for School
-Here is a personal page I started for school that uses CSS for the theming, HTML for the main layout, and Bootstrap for the NavBar. Here is a video demonstrating it: https://www.youtube.com/watch?v=JaoHdWWfT78
+Here is a personal page I started for school that uses CSS for the theming, HTML for the main layout, and Bootstrap for the NavBar. I went for a late 90s/early 2000s website style for the UI. Here is a video demonstrating it: https://www.youtube.com/watch?v=JaoHdWWfT78
 
 # Project 4: Gluten Freeway | Dart, Flutter, MongoDB | Possibly Make it into a Commercial Product
 <div style="text-align: center;">
